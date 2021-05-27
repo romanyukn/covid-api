@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 
-function SearchBlock({onSearch}) {
+function SearchBlock({ onSearch }) {
   const [searchValue, setSearchValue] = useState();
   return(
     <div className="container">

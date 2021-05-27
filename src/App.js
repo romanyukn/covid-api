@@ -1,9 +1,9 @@
-import InstaPage from './components/instaPage';
+import MainPage from './components/MainPage';
 import './App.css';
 
 function App() {
   return (
-    <InstaPage />
+    <MainPage />
   );
 }
 
